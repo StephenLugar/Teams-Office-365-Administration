@@ -1,0 +1,520 @@
+{
+    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
+    "visibility": "Public",
+    "displayName": "Office 365 Administration",
+    "description": "This is a training channel of Office 365 products for all Administrators",
+    "channels": [
+        {
+            "displayName": "Announcements 📢",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample announcements channel that is favorited by default. Use this channel to make important team, product, and service announcements."
+        },
+        {
+            "displayName": "Manage Office 365",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Enterprise",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/office365/enterprise/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/office365/enterprise/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Admin help centre",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/office365/admin/admin-home?view=o365-worldwide",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/office365/admin/admin-home?view=o365-worldwide"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Security and Compliance",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/office365/SecurityCompliance/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/office365/SecurityCompliance/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Content roadmap",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/office365/Office365-roadmap",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/office365/Office365-roadmap"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Manage with PowerShell",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell"             }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Deployment guide",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/DeployOffice/deployment-guide-for-office-365-proplus",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/DeployOffice/deployment-guide-for-office-365-proplus"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Administer Office 365",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Exchange",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/exchange/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/exchange/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Office Online Server",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/officeonlineserver/office-online-server",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/officeonlineserver/office-online-server"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Teams",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams#pivot=home&panel=home-all",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams#pivot=home&panel=home-all"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "SharePoint",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/sharepoint/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/sharepoint/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "OneDrive",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/onedrive/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/onedrive/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Yammer",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/yammer/yammer-landing-page",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/yammer/yammer-landing-page"   
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Outlook for iOS and Android",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/exchange/outlook/mobile/resources",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/exchange/outlook/mobile/resources"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Project",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/Project/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/Project/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Skype for Business",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/skypeforbusiness/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/skypeforbusiness/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Stream",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/stream/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/stream/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Kaizala",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/Office365/Kaizala/kaizala-overview",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/Office365/Kaizala/kaizala-overview"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Microsoft 365 Documentation",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Enterprise",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/microsoft-365/enterprise/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/microsoft-365/enterprise/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Business",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/microsoft-365/business/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/microsoft-365/business/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Education",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/education/#pivot=itpro",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/education/#pivot=itpro"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Graph Documentation",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Overview",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/graph/overview",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/graph/overview"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Major services and features",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/graph/overview-major-services",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/graph/overview-major-services"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Graph Explorer",
+                    "configuration": {
+                        "ContentUrl":"https://developer.microsoft.com/en-us/graph/graph-explorer",
+                        "websiteUrl":"https://developer.microsoft.com/en-us/graph/graph-explorer"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Use the Microsoft Graph API",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/graph/use-the-api",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/graph/use-the-api"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Graph REST API v1.0 reference",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-1.0",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-1.0"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Graph beta endpoint reference",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-beta",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-beta"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "PowerShell Documentation",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Get Started",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Features",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/powershell/#pivot=main&panel=features",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/powershell/#pivot=main&panel=features"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Community",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/powershell/#pivot=main&panel=community",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/powershell/#pivot=main&panel=community"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Flow Documentation",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Get Started",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/flow/getting-started",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/flow/getting-started"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "I'm a beginner",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/flow/#pivot=start",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/flow/#pivot=start"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "I'm an intermediate",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/flow/#pivot=intermediate",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/flow/#pivot=intermediate"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "I'm an expert",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/flow/#pivot=expert",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/flow/#pivot=expert"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "I'm an admin",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/flow/#pivot=admin",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/flow/#pivot=admin"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Windows",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Windows Server",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/windows-server/index",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/windows-server/index"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Windows 10",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/windows/windows-10/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/windows/windows-10/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Windows 10 Education",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/education/windows/",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/education/#pivot=itpro"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Store for Business",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/microsoft-store/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/microsoft-store/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Store for Education",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/microsoft-store/?toc=/microsoft-store/education/toc.json",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/microsoft-store/?toc=/microsoft-store/education/toc.json"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Windows Privacy",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/windows/privacy/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/windows/privacy/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Microsoft Edge",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/microsoft-edge/deploy/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/microsoft-edge/deploy/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Surface devices",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/surface/get-started",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/surface/get-started"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Surface Hub",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/surface-hub/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/surface-hub/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "HoloLens",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/hololens/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/hololens/"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Enterprise Mobility Security",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Azure Active Directory",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/azure/active-directory/index",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/azure/active-directory/index"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Intune",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/intune/index",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/intune/index"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "SCCM",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/sccm/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/sccm/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Cloud App Security",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/cloud-app-security/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/cloud-app-security/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Azure Information Protection",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/azure/information-protection/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/azure/information-protection/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "AAD Authentication",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/azure/active-directory/authentication/index",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/azure/active-directory/authentication/index"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Advanced Threat Analytics",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/advanced-threat-analytics/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/advanced-threat-analytics/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Azure Advanced Threat Protection",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/azure-advanced-threat-protection/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/azure-advanced-threat-protection/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Identity Manager",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-gb/microsoft-identity-manager/",
+                        "websiteUrl":"https://docs.microsoft.com/en-gb/microsoft-identity-manager/"
+                    }
+                }    
+            ]
+        }
+    ],
+    "memberSettings": {
+        "allowCreateUpdateChannels": false,
+        "allowDeleteChannels": false,
+        "allowAddRemoveApps": false,
+        "allowCreateUpdateRemoveTabs": false,
+        "allowCreateUpdateRemoveConnectors": false
+    },
+    "guestSettings": {
+        "allowCreateUpdateChannels": false,
+        "allowDeleteChannels": false
+    },
+    "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+    },
+    "messagingSettings": {
+        "allowUserEditMessages": true,
+        "allowUserDeleteMessages": true,
+        "allowOwnerDeleteMessages": true,
+        "allowTeamMentions": true,
+        "allowChannelMentions": true
+    },
+    "discoverySettings": {
+        "showInTeamsSearchAndSuggestions": true
+    }
+}
+
