@@ -487,6 +487,108 @@
                     }
                 }    
             ]
+        },
+        {
+            "displayName": "FastTrack",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "What is FastTrack",
+                    "configuration": {
+                        "ContentUrl":"https://partner.microsoft.com/en-au/solutions/fasttrack",
+                        "websiteUrl":"https://partner.microsoft.com/en-au/solutions/fasttrack"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "FastTrack Portal",
+                    "configuration": {
+                        "ContentUrl":"http://portal.fasttrack.office.com/",
+                        "websiteUrl":"http://portal.fasttrack.office.com/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Learn more",
+                    "configuration": {
+                        "ContentUrl":"https://drumbeat.office.com/Partner/Pages/fasttrack.aspx",
+                        "websiteUrl":"https://drumbeat.office.com/Partner/Pages/fasttrack.aspx"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Benefit for Office 365",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/fasttrack/o365-fasttrack-benefit-for-office-365",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/fasttrack/o365-fasttrack-benefit-for-office-365"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Benefit for Enterprise Mobility + Security",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/fasttrack/ems-fasttrack-benefit-for-ems",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/fasttrack/ems-fasttrack-benefit-for-ems"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Benefit for Windows 10",
+                    "configuration": {
+                        "ContentUrl":"https://docs.microsoft.com/en-us/fasttrack/win-10-fasttrack-benefit-for-windows-10",
+                        "websiteUrl":"https://docs.microsoft.com/en-us/fasttrack/win-10-fasttrack-benefit-for-windows-10"
+                    }
+                }    
+            ]
+        },
+        {
+            "displayName": "Insentra Blogs",
+            "isFavoriteByDefault": true,
+            "description": "This is a Teams training Channel, that is favorited by default, and contains pinned websites and training resources",
+            "tabs":[
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Information Security",
+                    "configuration": {
+                        "ContentUrl":"https://www.insentra.com.au/category/blog/information-security/",
+                        "websiteUrl":"https://www.insentra.com.au/category/blog/information-security/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Application, Delivery and Mobility",
+                    "configuration": {
+                        "ContentUrl":"https://www.insentra.com.au/category/blog/application-mobility-and-delivery/",
+                        "websiteUrl":"https://www.insentra.com.au/category/blog/application-mobility-and-delivery/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Cloud and Collaboration",
+                    "configuration": {
+                        "ContentUrl":"https://www.insentra.com.au/category/blog/cloud-and-collaboration/",
+                        "websiteUrl":"https://www.insentra.com.au/category/blog/cloud-and-collaboration/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Data migration",
+                    "configuration": {
+                        "ContentUrl":"https://www.insentra.com.au/category/blog/data-migration/",
+                        "websiteUrl":"https://www.insentra.com.au/category/blog/data-migration/"
+                    }
+                },
+                {
+                    "TeamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                    "name": "Enhanced Support",
+                    "configuration": {
+                        "ContentUrl":"https://www.insentra.com.au/category/blog/enhanced-support/",
+                        "websiteUrl":"https://www.insentra.com.au/category/blog/enhanced-support/"
+                    }
+                }    
+            ]
         }
     ],
     "memberSettings": {
