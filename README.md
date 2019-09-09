@@ -38,3 +38,8 @@ This template will create a Team, in Microsoft Teams with the following informat
 # **Channel:** Enterprise Mobility Security
 <br />**Tabs:** Azure Active Directory Intune, SCCM, Cloud App Security, Azure Information Protection, AAD Authentication, Advanced Threat Analytics, Azure Advanced Threat Protection, Identity Manager
 ![](images/Enterprise%20Mobility%20Security.png)
+**Channel:** FastTrack
+<br />**Tabs:** What is FastTrack, FastTrack Portal, Learn more, Benefit for Office 365, Benefit for Enterprise Mobility + Security, Benefit for Windows 10
+
+**Channel:** Insentra Blogs
+<br />**Tabs:** Infomation Security, Application, Delivery and Mobility, Cloud and collaboration, Data migration, Enhanced support
